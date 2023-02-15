@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <!-- LINK SWIPPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <!-- Bootstrap 5 CDN LINKS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- NAVBAR STARTS -->
+<header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/hotel logo.png" class="img-fluid" alt="" width="55px" height="55px">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-stream navbar-toggler-icon"></i>
+        </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#rooms">Rooms</a></li>
+                  <li><a class="dropdown-item" href="#team">Team</a></li>
+                  <li><a class="dropdown-item" href="#">Price</a></li>
+                </ul>
+              
+              
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="FAQS.html">FAQS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+             <li class="nav-item mt-3 mt-lg-0">
+                <a class="main-btn" href="#">Book Now</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<div class="container-fluid mt-3 mb-3">
+  <img src="./images/faq.jpg" alt="" width="100%">
+</div>
+<div class="container faq-section text-center">
+ <button type="text" class="btn-main" style="padding: 5PX;"> Frequently Asked Questions</button>
+</div>
+
+<div class=" container accordion mt-3 mb-3" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        About us
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Best Hotel is a  hotel Elite. chain with 3 hotels located in 3 different destinations. Dedicated to always offer the best service at the best price, our regular customers guarantee our family service and give us their confidence year after year . Make your reservation with us and start enjoying the exclusive advantages we offer you! Here you can see all the options for your next trip.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Do you have any discount code?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Occasionally we make discounts that require the use of a promotional code in the booking process. We report these discounts to our registered customers. Register now and stay updated so you don't miss a thing!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Do you send discounts by email?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Of course! Do not miss our offers, and sign up to our newsletter by filling in the form that appears at the end of this page. Be the first to find out about our latest news and exclusive discounts.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What is the time of check-in and check-out of the hotel?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Depending on the hotel, check-in/check-out times may vary. Within the web page of each Hotel, in the section "Services" click where it says "Reception 24h" and it will show the exact times.
+        As a general rule, the Check-In is from 14:00 and the Check-Out must be done before 12:00
+        If you arrive before the check-in time, you can leave your luggage in the luggage room and enjoy the common areas of the Hotel.
+        If you have special needs, contact us and we will do our best to help you.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Is there animation in the hotels?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Fun is assured at Best Hotels!
+ 
+Our team of entertainers will take care of livening up your stay at our hotels with a huge range of day and night activities that will bring out your inner child: shows, daily music events and flashmobs, lipdubs, aquagym, competitions, football, water volleyball, pétanque, live music, magic shows, karaoke...
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Do you have special entertainment for children?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        At Best Hotels we ensure that the little ones enjoy the holidays they deserve with our children's entertainment programs.
+ 
+        We  prepare activities throughout the day, adapted to different ages, in the company of our mascot "HUGO" our friendly dragon that is present in almost all the holiday hotels: includes Mini Clubs (check ages of these services at each hotel), activities adapted to little ones and pool games, crafts, mini disco, musica shows, sports, recycling workshops, makeup, drama, etc.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Do you have gluten-free foods and other allergens?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Yes, our restaurants have the possibility to prepare special foods for people with allergies, intolerances and other special needs.
+Please, contact the hotel a few days before your arrival to inform them of your needs.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer Section -->
+<section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+  <div class="container pb-3">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+<h5>HOTEL LOCATION</h5>
+<p class="ps-0" style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic impedit ipsa..</p>
+<div class="contact-info">
+  <ul class="list-unstyled">
+    <li><a href="" class="fa fa-home me-3" style="text-decoration: none;">Defence Phase 6 Karachi</a></li>
+    <li><a href="" class="fa fa-phone me-3" style="text-decoration: none;">+92 123 456</a></li>
+    <li><a href="" class="fa fa-envelope me-3" style="text-decoration: none;">ashirrafiq57@gmail.com</a></li>
+   
+  </ul>
+</div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>MORE LINKS</h5>
+        <ul class="link-widget p-0">
+          <li><a href="index.html" style="text-decoration: none;color: white;">Home</a></li>
+          <li><a href="about.html" style="text-decoration: none;color: white;">About us</a></li>
+          <li><a href="services.html" style="text-decoration: none;color: white;">Services</a></li>
+          <li><a href="FAQS.html" style="text-decoration: none; color: white;">FAQS</a></li>
+          <li><a href="contact.html" style="text-decoration: none; color: white;">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>DEMO LINKS</h5>
+        <ul class="link-widget p-0">
+          <li><a href="#" style="text-decoration: none; color: white;">Home</a></li>
+          <li><a href="#" style="text-decoration: none; color: white;">Gallery</a></li>
+          <li><a href="#" style="text-decoration: none; color: white;">Blogs</a></li>
+          <li><a href="#" style="text-decoration: none; color: white;">Upcoming Events</a></li>
+          <li><a href="#" style="text-decoration: none; color: white;">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h5>NEWSLETTER</h5>
+        <div class="form-group mb-4">
+          <input type="email" class="form-control bg-transparent" placeholder="enter your email here">
+          <button type="submit" class="main-btn" style="color: white; border: 3px solid white;">Subscribe</button>
+        </div>
+        <h5 >Stay Connected</h5>
+        <ul class="social-network d-flex align-items-center p-0">
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+          <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+          <li><a href=""><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid copyright-section">
+    <p style="color: white;">Copyright <a href="#"> Ashir Rafiq</a>All Rights Reserved</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SWIPPER JS LINK -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom JS LINK -->
+    <script src="JS/main.js"></script>
+    <!-- Bootstrap 5 JS CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
